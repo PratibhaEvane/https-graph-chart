@@ -2,6 +2,7 @@ app-side-bar {
     float: left;
     width: 10%;
     height: 1000px;
+    border-right: 1px solid whitesmoke;
 }
 
 .container {
@@ -58,15 +59,11 @@ app-side-bar {
             width: 300px;
         }
 
-
-    }
-
-    .cal {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 600px !important;
-        box-shadow: 0px 0px 2px 2px whitesmoke;
+        .cal {
+            align-items: center;
+            width: 300px;
+            box-shadow: 0px 0px 2px 2px whitesmoke;
+        }
     }
 
 
