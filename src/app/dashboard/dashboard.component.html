@@ -1,0 +1,64 @@
+<app-side-bar></app-side-bar>
+<div class="container">
+    <div class="chart-container group-1">
+        <div class="chart-item">
+            <div class="chart-header">
+                <h5>
+                    <ul>
+                        <li style="font-weight: normal;">Overall Travel Expense</li>
+                        <li style="font-size: larger;">Rs 40,265,92.00</li>
+                    </ul>
+                </h5>
+                <button mat-raised-button>
+                    Month
+                </button>
+            </div>
+            <div class="chart-body"><canvas id="travelChart"></canvas></div>
+
+        </div>
+        <div class="chart-item">
+            <h5 class="chart-header">
+                <h5 style="font-size: 20px;">Employee Status</h5>
+                <button mat-raised-button>
+                    Month
+                </button>
+            </h5>
+            <div class="chart-body">
+                <canvas id="employeeStatusChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+    <div class="chart-container group-2">
+        <div class="chart-item-rhs">
+            <div class="chart-item">
+                <h5 class="chart-header">
+                    <h5 style="font-weight: normal;">Overall Travelling Type</h5>
+                    <button mat-raised-button>Last week</button>
+                </h5>
+                <div class="chart-body">
+                    <canvas id="travellingTypeChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-item">
+                <h5 class="chart-header">
+                    <h5>Visit</h5>
+                </h5>
+                <hr>
+                <div class="chart-body">
+                    <canvas id="visitChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+
+        <div class="chart-item cal">
+            <ejs-calendar id=calendar [value]='valueCal1' [min]='minDateCal1' [max]='maxDateCal1'> </ejs-calendar>
+            <ejs-calendar id=calendar [value]='valueCal2' [min]='minDateCal2' [max]='maxDateCal2'> </ejs-calendar>
+
+
+        </div>
+
+    </div>
+
+</div>

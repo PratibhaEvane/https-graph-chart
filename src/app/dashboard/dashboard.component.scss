@@ -1,0 +1,73 @@
+app-side-bar {
+    float: left;
+    width: 10%;
+    height: 1000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    position: absolute;
+    right: 0;
+
+    .chart-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+        .chart-item {
+            display: flex;
+            flex-direction: column;
+            height: 460px;
+            box-shadow: 0px 0px 2px 2px whitesmoke;
+
+            .chart-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 5px;
+                margin-top: 0;
+
+                h5 ul {
+                    list-style: none;
+                    margin-top: 0;
+                }
+
+
+            }
+        }
+    }
+
+    .group-1 {
+        width: 50%;
+    }
+
+    .group-2 {
+        width: 50%;
+    }
+
+    .chart-item-rhs {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        height: 460px;
+
+        .chart-item {
+            margin-right: 10px;
+            width: 300px;
+        }
+
+
+    }
+
+    .cal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 600px !important;
+        box-shadow: 0px 0px 2px 2px whitesmoke;
+    }
+
+
+}
